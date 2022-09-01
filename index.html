@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="product section">
+      <div class="container">
+        <div class="product__item">
+            <label class="product__item__title" for="">100% natural</label>
+            <h2 class="product__item__title__about">products</h2>
+        </div>
+        <ul class="types list">
+          <li class="types-item ice-cream">
+            <h3 class="types__title">ice cream</h3>
+            <p class="types__text">
+              Soft ice cream with a delicate taste. Made with milk, cream, sugar
+              and natural stabilizer
+            </p>
+          </li>
+          <li class="types-item ice-coffee">
+            <picture>
+                <source
+                  srcset="./img/ice2.jpg 1x, ./img/ice2@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./img/ice2.jpg 1x, ./img/ice2@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+  
+                <source
+                  srcset="./img/ice2.jpg 1x, ./img/ice2@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+  
+                <img
+                  src="./img/ice2.jpg"
+                  alt="ice-cream"
+                  width="300"
+                  height="300"
+                />
+              </picture>
+            <h3 class="types__title">ice coffee</h3>
+            <p class="types__text">
+              Fragrant invigorating drink created from 100% natural ingredients
+              without the use of preservatives and flavor enhancers
+            </p>
+          </li>
+          <li class="types-item milkshakes">
+            <picture>
+                <source
+                  srcset="./img/ice3.jpg 1x, ./img/ice3@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./img/ice3.jpg 1x, ./img/ice3@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+  
+                <source
+                  srcset="./img/ice3.jpg 1x, ./img/ice3@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+  
+                <img
+                  src="./img/ice3.jpg"
+                  alt="ice-cream"
+                  width="300"
+                  height="300"
+                />
+              </picture>
+            <h3 class="types__title">milkshakes</h3>
+            <p class="types__text">
+              Sweet drinks based on milk and ice cream, supplemented with
+              syrups, fruits, berries and other sweets of your choice
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
