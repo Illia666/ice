@@ -46,7 +46,7 @@ body {
 
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 480px;
+    width: 480px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -54,25 +54,243 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
-@media screen and (max-width: 321px) {
-  .container {
-    max-width: 322px;
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .product {
+    background-image: url(../img/backgroundtab.jpg);
+    padding:60px 33px;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    }
+  .product__item__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
   }
+  .product__item__title__about {
+
+    font-family: 'Seymour One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 43px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #000000;
+  }
+  .product__item {
+    text-align: center;
+    margin-bottom: 200px;
+  }
+  .types {
+    display: flex;
+    gap: 16px;
+    flex-wrap: nowrap;
+  }
+  .types-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .types-item.ice-cream {
+    background-color: #aec6a5;
+    width: 224px;
+    height: 428px;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    position: relative;
+  }
+  .types-item.ice-coffee {
+    background-color: #efd478;
+    width: 224px;
+    height: 428px;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    position: relative;
+  }
+  .types-item.milkshakes {
+    background-color: #d6936d;
+    width: 224px;
+    height: 428px;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    position: relative;
+  }
+  .types-item.ice-cream::before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-top: -125px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../img/ice1tab.jpg);
+    border-radius: 150px;
+    background-repeat: no-repeat;
+
+  }
+  .types-item.ice-coffee::before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-top: -125px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../img/ice2tab.jpg);
+    border-radius: 150px;
+    background-repeat: no-repeat;
+
+  }
+  .types-item.milkshakes::before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-top: -125px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../img/ice3tab.jpg);
+    border-radius: 150px;
+    background-repeat: no-repeat;
+
+  }
+  .types__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #131313;
+    margin-top: 32px;
+  }
+  .types__text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 176%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-top: 39px;
+    margin-bottom: 59px;
+    color: #131313;
+    width: 172px;
+    height: 174px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .types-link{
+    background-color: transparent;
+    border:0;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    margin-right: 40px;
+    margin-left: -40px;  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 1200px) {
   .product {
     background-image: url(../img/backgroung.jpg);
-    padding: 60px 82px;
+    padding: 20px 80px;
   }
   .product__item__title {
     font-family: "Montserrat";
@@ -100,12 +318,16 @@ body {
   }
   .product__item {
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 303px;
   }
   .types {
     display: flex;
     gap: 30px;
     flex-wrap: nowrap;
+  }
+  .types-item {
+    display: flex;
+    flex-direction: column;
   }
   .types-item.ice-cream {
     background-color: #aec6a5;
@@ -113,6 +335,7 @@ body {
     height: 535px;
     box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
     border-radius: 24px;
+    position: relative;
   }
   .types-item.ice-coffee {
     background-color: #efd478;
@@ -120,6 +343,7 @@ body {
     height: 535px;
     box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
     border-radius: 24px;
+    position: relative;
   }
   .types-item.milkshakes {
     background-color: #d6936d;
@@ -127,43 +351,75 @@ body {
     height: 535px;
     box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
     border-radius: 24px;
+    position: relative;
   }
   .types-item.ice-cream::before {
     content: "";
+    display: block;
     width: 300px;
     height: 300px;
-    background-image: url(../img/ice1.jpg);
-    margin-top: -320px;
-    margin-left: -60px;
-    
+    margin-top: -180px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../img/ice1.jpg);
+    border-radius: 150px;
   }
-  .types__title{
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 37px;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: 0.04em;
-text-transform: uppercase;
-
-color: #131313;
-margin-top: 32px;
+  .types-item.ice-coffee::before {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-top: -180px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../img/ice2.jpg);
+    border-radius: 150px;
   }
-  .types__text{
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 176%;
-/* or 28px */
+  .types-item.milkshakes::before {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-top: -180px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../img/ice3.jpg);
+    border-radius: 150px;
+  }
+  .types__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.04em;
-margin-top: 65px;
-color: #131313;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #131313;
+    margin-top: 32px;
+  }
+  .types__text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 176%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-top: 65px;
+    margin-bottom: 60px;
+    color: #131313;
+    width: 245px;
+    height: 147px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .types-link{
+    background-color: transparent;
+    border:0;
   }
 
 }
