@@ -82,14 +82,13 @@ body {
     width: 100%;
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .product {
       background-image: url(../img/backgroundtel@2x.jpg);
-
+    }
   }
-}
   .product__item__title {
     font-family: "Montserrat";
     font-style: normal;
@@ -143,7 +142,6 @@ body {
     border-radius: 24px;
     position: relative;
     margin-bottom: 200px;
-
   }
   .types-item.milkshakes {
     background-color: #d6936d;
@@ -166,14 +164,13 @@ body {
     background-repeat: no-repeat;
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .types-item.ice-cream::before {
       background: url(../img/ice1tel@2x.png);
-
+    }
   }
-}
   .types-item.ice-coffee::before {
     content: "";
     display: block;
@@ -187,14 +184,13 @@ body {
     background-repeat: no-repeat;
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .types-item.ice-coffee::before {
       background: url(../img/ice2tel@2x.png);
-
+    }
   }
-}
   .types-item.milkshakes::before {
     content: "";
     display: block;
@@ -208,14 +204,13 @@ body {
     background-repeat: no-repeat;
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .types-item.milkshakes::before {
       background: url(../img/ice3tel@2x.png);
-
+    }
   }
-}
   .types__title {
     font-family: "Montserrat";
     font-style: normal;
@@ -253,7 +248,7 @@ body {
     margin-right: 15px;
     margin-left: -15px;
   }
-  .product.section{
+  .product.section {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -270,14 +265,13 @@ body {
     width: 100%;
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .product {
       background-image: url(../img/backgroundtel@2x.jpg);
-
+    }
   }
-}
   .product__item__title {
     font-family: "Montserrat";
     font-style: normal;
@@ -331,7 +325,6 @@ body {
     border-radius: 24px;
     position: relative;
     margin-bottom: 200px;
-
   }
   .types-item.milkshakes {
     background-color: #d6936d;
@@ -354,14 +347,13 @@ body {
     background-repeat: no-repeat;
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .types-item.ice-cream::before {
       background: url(../img/ice1tel@2x.png);
-
+    }
   }
-}
   .types-item.ice-coffee::before {
     content: "";
     display: block;
@@ -375,14 +367,13 @@ body {
     background-repeat: no-repeat;
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .types-item.ice-coffee::before {
       background: url(../img/ice2tel@2x.png);
-
+    }
   }
-}
   .types-item.milkshakes::before {
     content: "";
     display: block;
@@ -396,14 +387,13 @@ body {
     background-repeat: no-repeat;
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .types-item.milkshakes::before {
       background: url(../img/ice3tel@2x.png);
-
+    }
   }
-}
   .types__title {
     font-family: "Montserrat";
     font-style: normal;
@@ -441,7 +431,7 @@ body {
     margin-right: 15px;
     margin-left: -15px;
   }
-  .product.section{
+  .product.section {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -458,14 +448,13 @@ body {
     width: 100%;
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .product {
       background-image: url(../img/backgroundtab@2x.jpg);
-
+    }
   }
-}
   .product__item__title {
     font-family: "Montserrat";
     font-style: normal;
@@ -539,14 +528,13 @@ body {
     background-repeat: no-repeat;
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .types-item.ice-cream::before {
       background: url(../img/ice1tab@2x.png);
-
+    }
   }
-}
   .types-item.ice-coffee::before {
     content: "";
     display: block;
@@ -560,14 +548,13 @@ body {
     background-repeat: no-repeat;
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .types-item.ice-coffee::before {
       background: url(../img/ice2tab@2x.png);
-
+    }
   }
-}
   .types-item.milkshakes::before {
     content: "";
     display: block;
@@ -581,14 +568,13 @@ body {
     background-repeat: no-repeat;
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .types-item.milkshakes::before {
       background: url(../img/ice3tab@2x.png);
-
+    }
   }
-}
   .types__title {
     font-family: "Montserrat";
     font-style: normal;
@@ -633,14 +619,13 @@ body {
     background-image: url(../img/backgroung.jpg);
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .product {
       background-image: url(../img/backgroung@2x.jpg);
-
+    }
   }
-}
   .product__item__title {
     font-family: "Montserrat";
     font-style: normal;
@@ -714,14 +699,13 @@ body {
     border-radius: 150px;
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .types-item.ice-cream::before {
       background: url(../img/ice1@2x.jpg);
-
+    }
   }
-}
   .types-item.ice-coffee::before {
     content: "";
     display: block;
@@ -734,14 +718,13 @@ body {
     border-radius: 150px;
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .types-item.ice-coffee::before {
       background: url(../img/ice2@2x.jpg);
-
+    }
   }
-}
   .types-item.milkshakes::before {
     content: "";
     display: block;
@@ -754,14 +737,13 @@ body {
     border-radius: 150px;
   }
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .types-item.milkshakes::before {
       background: url(../img/ice3@2x.jpg);
-
+    }
   }
-}
   .types__title {
     font-family: "Montserrat";
     font-style: normal;
